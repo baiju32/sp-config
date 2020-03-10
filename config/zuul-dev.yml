@@ -10,7 +10,9 @@ spring:
    port: 5672
    username: admin
    password: admin 
-      
+  sleuth:
+    sampler:
+      probability: 0.5    
 server:
   port: 3001
   
